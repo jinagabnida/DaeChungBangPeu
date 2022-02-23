@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/exitSecPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your second password is\n&quot;sexycuty&quot;\n\nremember that"
+        android:textColor="#31FF00"
+        android:textSize="25sp"
+        android:fontFamily="@font/dossaemmul"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
