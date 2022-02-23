@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KKK"
+        android:fontFamily="@font/dosgothic"
+        android:textColor="#31FF00"
+        android:textSize="100sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/confirm1UserCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user code\n#000000"
+        android:textColor="#31FF00"
+        android:fontFamily="@font/dossaemmul"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/confirm1Nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nickname\n&quot;kim&quot;"
+        android:textColor="#31FF00"
+        android:fontFamily="@font/dossaemmul"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30sp"/>
+</LinearLayout>

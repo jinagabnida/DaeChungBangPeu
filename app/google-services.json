@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390711635801",
+    "project_id": "daechungbangpeu",
+    "storage_bucket": "daechungbangpeu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390711635801:android:c204269ff288daf46c2648",
+        "android_client_info": {
+          "package_name": "org.techtown.daechungbangpeu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390711635801-pvgnaqntrgjk781n29tkomfbk9mhlcp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMl92UEMiGbhuTgh18u7THdiedoytfZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390711635801-pvgnaqntrgjk781n29tkomfbk9mhlcp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

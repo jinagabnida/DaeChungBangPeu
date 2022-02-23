@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/search1UserCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your user code\n#000000"
+        android:textColor="#31FF00"
+        android:fontFamily="@font/dossaemmul"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter the user code"
+        android:textColor="#31FF00"
+        android:fontFamily="@font/dossaemmul"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/serach1UserCodeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#31FF00"
+        android:hint="&quot;#      &quot;"
+        android:textColor="#31FF00"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/search1DoneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Done"
+        android:textColor="#458A34"
+        android:fontFamily="@font/dossaemmul"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

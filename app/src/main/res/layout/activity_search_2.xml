@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/search2UserCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your user code\n#000000"
+        android:textColor="#31FF00"
+        android:fontFamily="@font/dossaemmul"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/search2UserCodeAndName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user code &quot;#000001&quot;\nuser name &quot;app:le&quot;"
+        android:textColor="#31FF00"
+        android:fontFamily="@font/dossaemmul"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is this the user\nyou were looking for?"
+        android:textColor="#31FF00"
+        android:fontFamily="@font/dossaemmul"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:id="@+id/search2YesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Yes"
+            android:textColor="#458A34"
+            android:fontFamily="@font/dossaemmul"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginEnd="40dp"/>
+
+        <Button
+            android:id="@+id/search2NoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="No"
+            android:textColor="#458A34"
+            android:fontFamily="@font/dossaemmul"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
